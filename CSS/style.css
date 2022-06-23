@@ -672,7 +672,7 @@ h1.contacto {
     border: solid 1px;
     width: 70%;
     height: 30%;
-    background-color: bisque;
+    background-image: linear-gradient(darkgray, aliceblue);
     margin-left: 15%;
     font-family: 'Nuosu SIL', serif;
     font-size: 0.7rem;
