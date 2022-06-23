@@ -130,6 +130,9 @@ footer {
     width: 7%;
     margin-top: 5%;
 }
+.redes:hover {
+    transform: scale(2);
+}
 
 /*----averiguar como cambia el color del icono de whatsapp-----*/
 
