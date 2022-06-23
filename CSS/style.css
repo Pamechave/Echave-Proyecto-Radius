@@ -44,12 +44,17 @@ ul li {
     .caja {
         font-size: 1.2rem;
     }
+
+    .caja:hover {
+        transform: scale(1.2);
+    }
+
     .contenedor-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
+
     }
 }
 
@@ -57,6 +62,10 @@ ul li {
     .caja {
         font-size: 1.5rem;
     }
+    .caja:hover {
+        transform: scale(1.5);
+    }
+
     .contenedor-nav {
         display: flex;
         flex-direction: row;
@@ -113,6 +122,7 @@ footer {
     align-items: flex-end;
 
 }
+
 .redes {
     font-size: 1.2rem;
     color: darkslategray;
@@ -120,6 +130,7 @@ footer {
     width: 7%;
     margin-top: 5%;
 }
+
 /*----averiguar como cambia el color del icono de whatsapp-----*/
 
 .banner {
@@ -154,6 +165,7 @@ footer {
     .banner-text {
         font-size: 1.5rem;
     }
+
     .redes {
         font-size: 2rem;
     }
@@ -169,6 +181,7 @@ footer {
     .banner-text {
         font-size: 2.5rem;
     }
+
     .redes {
         font-size: 3rem;
     }
@@ -365,6 +378,7 @@ footer {
     .staff-h1 {
         font-size: 1.5rem;
     }
+
     .redes {
         font-size: 2rem;
     }
@@ -481,6 +495,7 @@ footer {
     .estudios-ul {
         font-size: 1.2rem;
     }
+
     .redes {
         font-size: 2rem;
     }
@@ -541,6 +556,7 @@ footer {
     .estudios-ul {
         font-size: 1.5rem;
     }
+
     .redes {
         font-size: 2.5rem;
     }
@@ -590,6 +606,7 @@ h2.lista {
     h1.cobertura {
         font-size: 1.5rem;
     }
+
     .redes {
         font-size: 2rem;
     }
@@ -617,6 +634,7 @@ h2.lista {
     h2.lista {
         font-size: 2rem;
     }
+
     .redes {
         font-size: 2.5rem;
     }
@@ -732,6 +750,7 @@ h1.contacto {
     .datos {
         font-size: 1rem;
     }
+
     .redes {
         font-size: 2rem;
     }
@@ -773,6 +792,7 @@ h1.contacto {
     .datos {
         font-size: 1.5rem;
     }
+
     .redes {
         font-size: 2.5rem;
     }
