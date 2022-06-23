@@ -42,11 +42,11 @@ ul li {
 
 @media (min-width:768px) {
     .caja {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .caja:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     .contenedor-nav {
@@ -186,7 +186,7 @@ footer {
     }
 
     .redes {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
 
