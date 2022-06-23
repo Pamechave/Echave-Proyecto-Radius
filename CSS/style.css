@@ -13,7 +13,7 @@ html {
 /*---------COMIENZO DEL HEADER-----------*/
 
 header {
-    background-color: aliceblue;
+    background-image: linear-gradient(aliceblue, grey);
     padding: 0;
     margin-bottom: 10px;
     padding: 5%;
