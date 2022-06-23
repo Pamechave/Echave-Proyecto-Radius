@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../imagen/foto14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------COMIENZO DEL HEADER-----------*/
+
+header {
+    background-color: aliceblue;
+    padding: 0;
+    margin-bottom: 10px;
+    padding: 5%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contenedor-nav {
+    display: block;
+}
+
+.caja {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
+
+
+/*-------------------------------media queries para nav------------------------------*/
+
+
+@media (min-width:768px) {
+    .caja {
+        font-size: 1.2rem;
+    }
+    .contenedor-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .caja {
+        font-size: 1.5rem;
+    }
+    .contenedor-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/*--------------------------COMIENZO DEL FOOTER------------------------*/
+
+footer {
+    font-family: 'Nuosu SIL', serif;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.eslogan {
+    padding: 0px;
+    background-color: rgba(240, 240, 210, 0.5);
+}
+
+.dWeb {
+    font-weight: 200;
+    font-style: italic;
+    padding: 10%;
+}
+
+/*---------------------------media queries para footer----------------*/
+
+
+@media (min-width:768px) {
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .footer {
+        font-size: 1.5rem;
+    }
+}
+
+/*----COMIENZO DEL INDEX----*/
+
+/*---------------------------seccion portada index----------------------------*/
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.redes {
+    font-size: 1.2rem;
+    color: darkslategray;
+    padding: 5px;
+    width: 7%;
+    margin-top: 5%;
+}
+/*----averiguar como cambia el color del icono de whatsapp-----*/
+
+.banner {
+    background-image: url("../imagen/foto\ 7.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(240, 240, 210, 0.5);
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1rem;
+}
+
+/*-----media queries para portada index--------*/
+
+
+@media (min-width:768px) {
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .banner-text {
+        font-size: 1.5rem;
+    }
+    .redes {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .banner-text {
+        font-size: 2.5rem;
+    }
+    .redes {
+        font-size: 3rem;
+    }
+}
+
+/*------------------seccion institucional index---------------*/
+
+.institucional {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px grey;
+    background-color: aliceblue;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.institucional-h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: inherit;
+    letter-spacing: 2px;
+}
+
+.institucional-p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 32px;
+}
+
+/*--------------media queries para seccion institucional index-------------*/
+
+
+@media (min-width:768px) {
+    .institucional-h2 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    .institucional-p {
+        font-size: 1.2rem;
+        line-height: 45px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .institucional-h2 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+
+    .institucional-p {
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+}
+
+
+/*------------------seccion de ubicación index-------------------*/
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ubicacion-h3 {
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*---------media queries para sección ubicacion index-------*/
+
+@media (min-width:768px) {
+    .ubicacion-h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .ubicacion-h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*-------------------seccion informacion index---------------*/
+
+.infoindex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.infoindex h3 {
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.infoindex ul {
+    font-size: 0.7rem;
+    border: solid 1px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+
+
+/*-----------------media queries para seccion informacion index-----------*/
+
+@media (min-width:768px) {
+    .infoindex h3 {
+        font-size: 1.2rem;
+    }
+
+    .infoindex ul {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .infoindex h3 {
+        font-size: 1.5rem;
+    }
+
+    .infoindex ul {
+        font-size: 1.2rem;
+    }
+}
+
+/*----------------------------FIN DEL INDEX-----------------------------*/
+
+
+/*-------------------------PAGINA STAFF MEDICO---------------------------------*/
+
+
+.staff-h1 {
+    font-family: 'Nuosu SIL', serif;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 15px;
+    background-color: rgba(240, 240, 210, 0.5);
+}
+
+.staffmedico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nuosu SIL', serif;
+    color: black;
+    text-align: center;
+}
+
+.staffmedico-dl {
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.staffmedico-name {
+    font-size: 1.2rem;
+}
+
+.staffmedico-p {
+    font-size: 1rem;
+    padding: 15px;
+    font-style: italic;
+}
+
+/*-----------------------media queries para seccion de profesionales----------*/
+
+@media (min-width:768px) {
+    .staff-h1 {
+        font-size: 1.5rem;
+    }
+    .redes {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .staff-h1 {
+        font-size: 2rem;
+    }
+
+    .redes {
+        font-size: 2.5rem;
+    }
+
+    .staffmedico-dl {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        row-gap: 20px;
+        grid-template-areas:
+            "ale ale"
+            "jorge jorge"
+            "lucas lucas"
+            "claudio claudio"
+            "carla carla";
+    }
+
+    .ale {
+        grid-area:
+            "ale";
+    }
+
+    .jorge {
+        grid-area:
+            "jorge";
+    }
+
+    .lucas {
+        grid-area:
+            "lucas";
+    }
+
+    .claudio {
+        grid-area:
+            "claudio";
+    }
+
+    .carla {
+        grid-area:
+            "carla";
+    }
+
+    .staffmedico-name {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+
+    .staffmedico-p {
+        font-size: 1.5rem;
+
+    }
+}
+
+
+
+/*---------AQUÍ COMIENZA LA PAGINA DE ESTUDIOS MEDICOS-------*/
+
+.estudiosmedicos {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: rgba(240, 240, 210, 0.5);
+    padding: 15px;
+}
+
+.estudios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.estudios-h2 {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.estudios-ul {
+    font-size: 1rem;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+@media (min-width:768px) {
+    .estudiosmedicos {
+        font-size: 1.5rem;
+    }
+
+    .estudios-h2 {
+        font-size: 1.5rem;
+    }
+
+    .estudios-ul {
+        font-size: 1.2rem;
+    }
+    .redes {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+
+    .estudios {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .radiologia {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .general {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .color {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .mamarios {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .estudiosmedicos {
+        font-size: 2rem;
+    }
+
+    .estudios-h2 {
+        font-size: 2rem;
+    }
+
+    .estudios-ul {
+        font-size: 1.5rem;
+    }
+    .redes {
+        font-size: 2.5rem;
+    }
+}
+
+/*--------AQUI COMIENZA LA PAGINA COBERTURA MÉDICA---------*/
+
+h1.cobertura {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: rgba(240, 240, 210, 0.5);
+    padding: 15px;
+}
+
+h2.lista {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 300;
+    outline: solid 2px;
+    outline-color: #dee2ff;
+    text-align: center;
+}
+
+.entidad {
+    text-align: center;
+}
+
+/*-------------------------media queries cobertura médica-------------------*/
+
+@media (min-width:768px) {
+    .prepagas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+
+    }
+
+    h1.cobertura {
+        font-size: 1.5rem;
+    }
+    .redes {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    .prepagas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10(fr);
+        font-size: 1.5rem;
+    }
+
+    h1.cobertura {
+        font-size: 2rem;
+    }
+
+    .entidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2.lista {
+        font-size: 2rem;
+    }
+    .redes {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+/*------------AQUI COMIENZA LA PAGINA CONTACTO-------------*/
+
+h1.contacto {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: rgba(240, 240, 210, 0.5);
+    padding: 15px;
+}
+
+.parrafoContacto {
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    font-size: 0.7rem;
+    margin-bottom: 5%;
+    text-decoration: solid;
+    font-weight: 300;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    width: 70%;
+    height: 30%;
+    background-color: bisque;
+    margin-left: 15%;
+    font-family: 'Nuosu SIL', serif;
+    font-size: 0.7rem;
+    padding: 5px;
+}
+
+.field {
+    border: solid 1px;
+    margin: 10px;
+    width: 70%;
+    font-size: 0.7rem;
+}
+
+.infoContacto {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5%;
+    border: solid 1px;
+    margin-top: 5%;
+}
+
+.pcontacto {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.label {
+    text-align: left;
+}
+
+.ulcontacto {
+    text-align: center;
+    font-style: italic;
+
+}
+
+.datos {
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+@media (min-width:768px) {
+    h1.contacto {
+        font-size: 1.2rem;
+    }
+
+    .parrafoContacto {
+        font-size: 1rem;
+    }
+
+    #form {
+        font-size: 1rem;
+        width: 50%;
+        height: 40%;
+        margin-left: 25%;
+        padding: 5px;
+
+    }
+
+    .field {
+        font-size: 1rem;
+    }
+
+    .infoContacto {
+        font-size: 1.2rem;
+    }
+
+    .pcontacto {
+        font-size: 1rem;
+    }
+
+    .datos {
+        font-size: 1rem;
+    }
+    .redes {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1376px) {
+    h1.contacto {
+        font-size: 2rem;
+    }
+
+    .parrafoContacto {
+        font-size: 1.5rem;
+    }
+
+    #form {
+        font-size: 1.2rem;
+        width: 40%;
+        height: 30%;
+        margin-left: 30%;
+
+    }
+
+    .field {
+        font-size: 1.2rem;
+    }
+
+    .infoContacto {
+        font-size: 1.8rem;
+    }
+
+    .pcontacto {
+        font-size: 1.5rem;
+    }
+
+    .ulcontacto {
+        font-size: 1.5rem;
+    }
+
+    .datos {
+        font-size: 1.5rem;
+    }
+    .redes {
+        font-size: 2.5rem;
+    }
+}
